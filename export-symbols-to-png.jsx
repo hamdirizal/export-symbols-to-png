@@ -1,5 +1,7 @@
 /*
  *  Export all symbols to PNG
+ *  https://github.com/hamdirizal/export-symbols-to-png/
+ *  
  *
  *  Export all symbols in the "Symbols" panel to png files located in the "exported" subfolder relative to the AI file. *
  * 
@@ -17,6 +19,8 @@
  *  Free to use and distribute.
  *
  *  Copyright (c) 2017 Hamdi Rizal
+ *
+ *  
  *
  */
 
