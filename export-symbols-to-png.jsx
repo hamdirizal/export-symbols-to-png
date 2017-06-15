@@ -32,7 +32,7 @@ var symbolCount = doc.symbols.length;
 
 var selectedPrefix = "";  //export only symbols started with this string. to export all leave it as an empty string "".
 var scale = 100; //The scale of exported png in percent(%)
-var exportPath = doc.path + "/exported"; //The export path is "/exported" subfolder relative to the ai file
+var exportPath = doc.path + "/"+doc.name+"-exported"; //The export path is "/exported" subfolder relative to the ai file.
 
 
 var layers = doc.layers; //The layers in the active document. Sorted from top to bottom.
